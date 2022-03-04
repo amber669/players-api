@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<!-- <script type="text/javascript" src="{{ url_for('static', filename = 'search.js') }}"></script> -->
+<div>
+  <form method="post">
+    sortby <input type="text" name="sortby">
+    size <input type="number" name="size">
+    <button type="submit">Submit</button>
+  </form>
+</div>
+{% endblock %}

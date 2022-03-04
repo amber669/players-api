@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<!-- <script type="text/javascript" src="{{ url_for('static', filename = 'search.js') }}"></script> -->
+<div>
+  <form class="" action="/api/v1/player/" method="post">
+    username <input type="text" name="username">
+    <button type="submit">Submit</button>
+  </form>
+</div>
+{% endblock %}
